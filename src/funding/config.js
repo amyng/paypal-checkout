@@ -177,6 +177,7 @@ export const FUNDING_CONFIG = {
         ],
 
         allowHorizontal: false,
+<<<<<<< HEAD
         allowVertical:   true,
 
         requireCommitAsTrue: true
@@ -197,6 +198,8 @@ export const FUNDING_CONFIG = {
         ],
 
         allowHorizontal: false,
+=======
+>>>>>>> 11442c8bcd511c17d6a06468bb460b85ff751b9b
         allowVertical:   true,
 
         requireCommitAsTrue: true
