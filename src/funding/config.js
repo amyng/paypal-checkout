@@ -251,27 +251,21 @@ export const FUNDING_CONFIG = {
         requireCommitAsTrue: true
     },
     [ FUNDING.MAXIMA ]: {
-        allowedCountries: [
-            COUNTRY.LT
-        ],
+        allowedCountries: [],
 
         allowHorizontal:     false,
         allowVertical:       true,
         requireCommitAsTrue: true
     },
     [ FUNDING.BOLETO ]: {
-        allowedCountries: [
-            COUNTRY.BR
-        ],
+        allowedCountries: [],
 
         allowHorizontal:     false,
         allowVertical:       true,
         requireCommitAsTrue: true
     },
     [ FUNDING.OXXO ]: {
-        allowedCountries: [
-            COUNTRY.MX
-        ],
+        allowedCountries: [],
 
         allowHorizontal:     false,
         allowVertical:       true,
