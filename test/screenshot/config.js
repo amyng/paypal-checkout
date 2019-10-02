@@ -289,6 +289,23 @@ for (const color of getButtonConfig('paypal', 'colors')) {
 
     buttonConfigs.push({
         button: {
+<<<<<<< HEAD
+=======
+            locale: 'pt_BR',
+            style:  {
+                color,
+                layout:     'vertical',
+                maxbuttons: 4
+            },
+            funding: {
+                allowed: [ FUNDING.CREDIT, FUNDING.BOLETO, FUNDING.CARD ]
+            }
+        }
+    });
+
+    buttonConfigs.push({
+        button: {
+>>>>>>> 8e7c5df278b1f5c7a736456c51e2266bcdd92e0b
             locale: 'de_DE',
             style:  {
                 color,
@@ -438,6 +455,39 @@ for (const color of getButtonConfig('paypal', 'colors')) {
         }
     });
 
+<<<<<<< HEAD
+=======
+    buttonConfigs.push({
+        button: {
+            locale: 'en_LT',
+            commit: true,
+            style:  {
+                color,
+                layout:     'vertical',
+                maxbuttons: 4
+            },
+            funding: {
+                allowed: [ FUNDING.MAXIMA ]
+            }
+        }
+    });
+
+    buttonConfigs.push({
+        button: {
+            locale: 'en_MX',
+            commit: true,
+            style:  {
+                color,
+                layout:     'vertical',
+                maxbuttons: 4
+            },
+            funding: {
+                allowed: [ FUNDING.OXXO ]
+            }
+        }
+    });
+
+>>>>>>> 8e7c5df278b1f5c7a736456c51e2266bcdd92e0b
     // buttonConfigs.push({
     //     button: {
     //         locale: 'zh_CN',
