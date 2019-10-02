@@ -265,13 +265,7 @@ export const FUNDING_CONFIG = {
         requireCommitAsTrue: true
     },
     [ FUNDING.OXXO ]: {
-<<<<<<< HEAD
         allowedCountries: [],
-=======
-        allowedCountries: [
-            COUNTRY.MX
-        ],
->>>>>>> 8e7c5df278b1f5c7a736456c51e2266bcdd92e0b
 
         allowHorizontal:     false,
         allowVertical:       true,
